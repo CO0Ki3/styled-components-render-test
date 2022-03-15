@@ -5,9 +5,12 @@ import Testtt from "./Test3";
 function App() {
   return (
     <div className="App">
-      <Test />
-      <Testtt />
+      <Test /> 
+      {/* 33.7ms */}
       <Testt />
+      {/* 28.5ms */}
+      <Testtt />
+      {/* 32.3ms */}
     </div>
   );
 }
